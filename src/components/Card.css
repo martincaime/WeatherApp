@@ -1,0 +1,41 @@
+.weatherCard {
+  display: block;
+  margin: 2rem;
+  padding: 0.2rem;
+  border: 0.1rem solid rgb(50, 50, 50);
+  width: 27vw;
+  height: 40vh;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.xButton {
+  display: block;
+  margin-left: auto;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 0.1rem solid rgb(50, 50, 50);
+  background-color: transparent;
+  border-radius: 0.2rem;
+  font-size: 0.8rem;
+  color: rgb(50, 50, 50);
+  outline: none;
+}
+
+.xButton:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.country {
+  color: rgb(50, 50, 50);
+  font-size: 1.3rem;
+}
+
+.temperatures {
+  color: rgb(50, 50, 50);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

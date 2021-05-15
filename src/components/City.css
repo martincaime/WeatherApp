@@ -1,0 +1,10 @@
+.city {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: inherit;
+  width: 30vw;
+  border-radius: 0.2rem;
+  margin-top: 10vh;
+  border: 0.1rem solid rgb(50, 50, 50);
+}
